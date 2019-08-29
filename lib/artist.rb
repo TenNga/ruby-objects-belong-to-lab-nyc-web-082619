@@ -1,3 +1,3 @@
 class Artist 
-  attr_reader :name
+  attr_accessor :name
 end
