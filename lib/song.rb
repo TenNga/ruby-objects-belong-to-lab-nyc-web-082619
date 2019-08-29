@@ -3,6 +3,6 @@ class Song
   attr_reader  :artist 
   
   def artist= ()
-    self.artist = Artist.new 
+    self.artist = Artist.new(self.artist)
   end
 end
